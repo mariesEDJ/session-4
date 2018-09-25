@@ -3,11 +3,13 @@
 }
 
 html, body {
+	font-family: 'Montserrat', sans-serif;
 	margin: 0;
 }
 
 header, footer {
-
+background-color: #703f6c;
+padding: 1px
 }
 
 .centered {
@@ -15,11 +17,14 @@ header, footer {
 }
 
 header .subtitle {
-
+text-align: center;
+color:#ffffff;
 }
 
 h1 {
-
+	text-align: center;
+color:#ffffff;
+text-transform: uppercase;
 }
 
 ul {
@@ -32,7 +37,8 @@ ul li {
 }
 
 main {
-
+max-width: 660px;
+margin:auto;
 }
 
 section {
@@ -40,11 +46,12 @@ section {
 }
 
 h2 {
-
+	border-bottom: 1px solid black;
+color:#70686f;
 }
 
 h3 {
-
+color:#70686f;
 }
 
 p {
@@ -64,5 +71,6 @@ p {
 }
 
 footer h2 {
-
+border-bottom: 0px;
+text-align: center;
 }
